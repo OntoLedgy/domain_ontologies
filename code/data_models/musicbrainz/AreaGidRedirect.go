@@ -1,6 +1,7 @@
 package dto
 
 import (
+	"database/sql"
 	pg "github.com/lib/pq"
 )
 

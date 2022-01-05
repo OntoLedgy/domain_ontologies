@@ -1,5 +1,7 @@
 package dto
 
+import "database/sql"
+
 type CdtocRaw struct {
 	ID            int            `db:"id"`
 	Release       int            `db:"release"`

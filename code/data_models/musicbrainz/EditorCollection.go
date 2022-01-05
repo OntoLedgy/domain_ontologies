@@ -1,5 +1,7 @@
 package dto
 
+import "database/sql"
+
 type EditorCollection struct {
 	ID          int            `db:"id"`
 	GID         sql.NullString `db:"gid"`
