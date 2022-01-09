@@ -27,3 +27,7 @@ type Artist struct {
 	BeginArea      sql.NullInt64  `db:"begin_area"`
 	EndArea        sql.NullInt64  `db:"end_area"`
 }
+
+func (Artist) GetTransactionObject() {
+
+}
